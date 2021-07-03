@@ -1,0 +1,29 @@
+.box
+{
+    background-color:black;
+    color:white!important;
+  margin-left:30%;
+  margin-right:30%;
+  margin-top:5%;
+}
+#head
+{
+    font-size:40px;
+    
+}
+#friends
+{
+    font-size:25px;
+    font-family:Courier;
+   
+}
+
+
+@media only screen and (max-width: 600px) {
+  .box {
+    margin-right:10px;
+    margin-left:50px;
+    margin-top:0px;
+    width:100%;
+  }
+}
